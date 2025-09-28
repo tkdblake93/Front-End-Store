@@ -8,6 +8,32 @@ table.body {
   padding-bottom: 20px;
 }
 
-h2 {
+h2,
+h3 {
   text-transform: uppercase;
+}
+
+.product {
+  background: $white;
+  background-color: $white;
+  padding-top: 20px;
+
+  h3 {
+    background: $secondary-color;
+    background-color: $secondary-color;
+    padding: 5px 0;
+  }
+
+  .price {
+    padding-left: 20px;
+    font-size: 40px;
+    color: $purple;
+    font-weight: bold;
+  }
+
+  .button {
+    text-transform: uppercase;
+    float: right;
+    margin-right: 20px;
+  }
 }

@@ -18,6 +18,8 @@
 
 $primary-color: #4172b7;
 $secondary-color: #bb6cd1;
+$purple: #3b4788;
+$yellow: #ffce00;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -64,8 +66,8 @@ $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-font-weight;
 $h1-font-size: 34px;
-$h2-font-size: 30px;
-$h3-font-size: 28px;
+$h2-font-size: 28px;
+$h3-font-size: 24px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
@@ -106,11 +108,11 @@ $button-font-size: (
   default: 16px,
   large: 20px,
 );
-$button-color: $white;
+$button-color: $purple;
 $button-color-alt: $medium-gray;
 $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $primary-color;
+$button-background: $yellow;
 $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
