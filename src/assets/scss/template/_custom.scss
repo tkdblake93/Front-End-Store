@@ -11,6 +11,13 @@ table.body {
 h2,
 h3 {
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  background: $primary-color;
+  background-color: $primary-color;
+  margin-bottom: 20px;
 }
 
 .product {
@@ -29,6 +36,8 @@ h3 {
     font-size: 40px;
     color: $purple;
     font-weight: bold;
+    position: relative;
+    top: -5px;
   }
 
   .button {
@@ -36,4 +45,9 @@ h3 {
     float: right;
     margin-right: 20px;
   }
+}
+
+.footer-text {
+  color: $white;
+  font-size: 18px;
 }
